@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>Click (or tap) any of the following links to learn about general features of Dentrix Ascend</p>
+
+<p class="Text">Navigate to the following website address: <a href="https://www.hsps.pro/DentrixAscend/Help/Dentrix_Ascend_status_page.htm" target="_blank">https://www.hsps.pro/DentrixAscend/Help/Dentrix_Ascend_status_page.htm</a>.</p>
+
+<p class="Text">Navigate to the following website address: <a href="https://www.hsps.pro/DentrixAscend/Help/Logging_in.htm" target="_blank">https://www.hsps.pro/DentrixAscend/Help/Logging_in.htm</a>.</p>
+
+<p class="Text">Navigate to the following website address: <a href="https://www.hsps.pro/DentrixAscend/Help/Resetting_a_forgotten_password.htm" target="_blank">https://www.hsps.pro/DentrixAscend/Help/Resetting_a_forgotten_password.htm</a>.</p>
+
+</body>
+</html>
