@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)https://www.hsps.pro/Dentrix/Help/Routines/Processing_insurance_payments_and_guarantor_payments.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.rh-hide:not(.rh-animate){display:none !important;}</style>
+
+ <meta name="generator" content="Adobe RoboHelp 2019">
+<title>Processing insurance payments and guarantor payments</title>
+<link rel="StyleSheet" href="./Processing insurance payments and guarantor payments_files/default.css" type="text/css">
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/rh.min.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/common.min.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/topic.min.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/constants.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/utils.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/mhutils.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/mhlang.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/mhver.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/settings.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/XmlJsReader.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/loadparentdata.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/loadscreen.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/loadprojdata.js"></script>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/mhtopic.js"></script>
+ <link rel="stylesheet" type="text/css" href="./Processing insurance payments and guarantor payments_files/widgets.min.css">
+ <link rel="stylesheet" type="text/css" href="./Processing insurance payments and guarantor payments_files/topic.min.css">
+<script type="text/javascript">
+gRootRelPath = "..";
+gCommonRootRelPath = "..";
+gTopicId = "1.4.1.0_3";
+</script>
+ <meta name="topic-breadcrumbs" content="Introduction to Dentrix &gt; Routine procedures &gt; Daily routines">
+<script type="text/javascript" charset="utf-8" src="./Processing insurance payments and guarantor payments_files/screendata.js"></script><script type="text/javascript" charset="utf-8" src="./Processing insurance payments and guarantor payments_files/parentdata.js"></script><style type="text/css">.topic-header { background-color: #509de6; color: #ffffff; width: calc(100%); height: 3em; position: fixed; left: 0; top: 0; font-family: "Trebuchet MS", Arial, sans-serif; display: table; box-sizing: border-box; }.topic-header-shadow { height: 3em; width: 100%; }.logo { cursor: pointer; padding: 0.2em; text-align: center; display: table-cell; vertical-align: middle; }.logo img { width: 1.875em; display: block; }.nav { width: 100%; display: table-cell; }.title { width: 40%; height: 100%; float: left; line-height: 3em; cursor: pointer; }.gotohome { width: 60%; float: left; text-align: right; height: 100%; line-height: 3em; cursor: pointer; }.title span, .gotohome span { padding: 0em 1em; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; display: block; }</style></head>
+
+<body><div><div class="topic-header" onclick="rh._.goToFullLayout()">  <div class="logo">    <img src="./Processing insurance payments and guarantor payments_files/logo.png">  </div>  <div class="nav">    <div class="title" title="Dentrix Help">      <span>Dentrix Help</span>    </div>    <div class="gotohome" title="Click here to see this page in full context">      <span>Click here to see this page in full context</span>    </div></div>  </div><div class="topic-header-shadow"></div></div>
+<script type="text/javascript" src="./Processing insurance payments and guarantor payments_files/ehlpdhtm.js"></script>
+
+<h1 id="Month_End_Procedures"><img src="./Processing insurance payments and guarantor payments_files/hspsbannergradient.png" alt="" style=" border:none; width:100%; max-width:800px;" border="0"></h1>
+<h1>Processing insurance payments and guarantor payments</h1>
+<p class="BodyText">When an explanation of benefits (EOB) is received for 
+ an insurance claim, the basic routine below can help you complete the 
+ necessary processing steps:</p>
+<p class="StepLevel1"><span style="font-weight: bold;">1</span>. &nbsp;&nbsp;Post 
+ the insurance payment to the Ledger (If no payment was made, enter 
+ a 0.00 payment if there is a legitimate reason; this flags the claim as 
+ "Received.")</p>
+<p class="StepLevel1"><span style="font-weight: bold;">2</span>. &nbsp;&nbsp;If 
+ the actual payment is different than the estimate, and will always be 
+ different, update the insurance payment table in the Ledger 
+ window when entering a dental insurance payment that is itemized.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">3</span>. &nbsp;&nbsp;Enter 
+ any deductible amount applied for a dental claim while entering the 
+ payment.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">4</span>. &nbsp;&nbsp;If 
+ an explanation of benefits gives reason to re-send a claim, split 
+ the primary claim, post 
+ multiple payments, and update 
+ the claim status in the Ledger, then re-send the procedures that need 
+ further documentation.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">5</span>. &nbsp;&nbsp;If 
+ a payment is received on a primary claim for a patient with secondary 
+ insurance, create 
+ and send the secondary pre-authorization to the Batch Processor.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">6</span>. &nbsp;&nbsp;When 
+ an explanation of benefits is received for a pre-treatment estimate claim, 
+ enter 
+ the pre-authorized amount and flag "Accepted" or "Rejected" 
+ for each procedure in the Ledger.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">7</span>. &nbsp;&nbsp;When 
+ entering a pre-authorized amount, if the amount is different than the 
+ estimate (and is not unique to this patient), update the Insurance Payment 
+ Table in the Ledger 
+ window .</p>
+<p class="NoteLevel2"><span style="font-weight: bold;">Note:</span> You 
+ may also want to verify that the coverage 
+ table is correct.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">8</span>. &nbsp;&nbsp;If 
+ authorization is received for primary insurance, create 
+ and send the secondary pre-authorization estimate to the Batch Processor.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">9</span>. &nbsp;&nbsp;Post 
+ any guarantor payments in the Ledger received through the mail.</p>
+<p class="StepLevel1"><span style="font-weight: bold;">10</span>. Use the 
+ Batch Insurance Claim option in the Office Manager to create claims for 
+ the day (if not already created through the Ledger). Print (or send electronically) 
+ all insurance claims and pre-treatment estimate claims for the day listed 
+ in the Batch Processor in the Office Manager.</p>
+
+
+<script type="text/javascript" async="" src="./Processing insurance payments and guarantor payments_files/projectdata.js"></script></body></html>
